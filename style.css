@@ -1,0 +1,132 @@
+body {
+  background-image: url("background.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  margin: unset;
+  font-family: "Red Hat Display", sans-serif;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* DIV */
+
+.container {
+  text-align: center;
+  width: 400px;
+  border-radius: 15px;
+  height: 500px;
+}
+
+.changeplan {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+
+.containerplan {
+  justify-content: space-between;
+  display: flex;
+}
+
+.plan-year {
+  margin-left: 16px;
+}
+
+button {
+  width: 100%;
+  border-radius: 10px;
+  height: 35px;
+  border: unset;
+  margin-top: 14px;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 10px 15px 0.5px hsl(225, 100%, 94%);
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
+
+.attribution {
+  font-size: 14px;
+  align-items: center;
+  position: absolute;
+  bottom: 24px;
+}
+
+/* TEXT */
+
+h1 {
+  margin: 0;
+  padding-top: 10px;
+  font-weight: 900;
+}
+
+.main-text {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.container-text {
+  background-color: #ececec;
+  border-radius: 0 0 15px 15px;
+  padding: 0 50px;
+  height: 310px;
+}
+
+.annual-plan {
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.price {
+  margin-top: 4px;
+  color: grey;
+}
+
+.change {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.cancel {
+  font-weight: 700;
+  color: grey;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+button a {
+  color: white;
+}
+
+/* IMG */
+.hero-img {
+  width: 100%;
+  background-image: url(../images/illustration-hero.svg);
+  height: 190px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.hero-img:hover {
+  color: yellow;
+}
+
+.icon-music {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
